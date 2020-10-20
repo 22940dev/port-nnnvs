@@ -63,6 +63,10 @@ $about_height: 400px;
             padding: 0;
          }
       }
+      @media only screen and (max-width: #{$mobile-width}) {
+         grid-row-start: 1;
+         grid-column-start: 1;
+      }
    }
 
    .about-col {
@@ -73,17 +77,29 @@ $about_height: 400px;
 
       @media only screen and (max-width: #{$mobile-width}) {
          grid-template-columns: 1fr;
+         grid-row-start: 3;
+         grid-column-start: 1;
       }
    }
 
    .item1 {
       grid-row-start: 2;
       grid-column-start: 1;
+
+      @media only screen and (max-width: #{$mobile-width}) {
+         grid-row-start: 4;
+         grid-column-start: 1;
+      }
     }
 
     .item2 {
       grid-row-start: 1;
       grid-row-end: 5;
+
+      @media only screen and (max-width: #{$mobile-width}) {
+         grid-row-start: 2;
+         grid-column-start: 1;
+      }
     }
 
    .grid-3x {
