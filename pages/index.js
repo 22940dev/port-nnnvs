@@ -29,7 +29,7 @@ const Home = () => {
             <div className={styles.mainstage}>
                <div className={styles.lead}>{lead}</div>
                <div className={styles.sublead}>
-                  Technologist based in Jaipur, India.
+                  Hi, I'm Nikhil. Welcome to my personal website.
                </div>
                <Socials margin={true} />
             </div>
