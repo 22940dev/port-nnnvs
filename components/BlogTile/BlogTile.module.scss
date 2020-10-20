@@ -1,0 +1,50 @@
+@import '../../styles/global.scss';
+
+.post {
+   margin: 20px 0;
+   padding: 20px 0;
+   transition: 0.3s all;
+   border-radius: 5px;
+   display: flex;
+   cursor: pointer;
+
+   &:hover {
+      // box-shadow: $large_shadow;
+      // transform: translateY(-1px);
+   }
+
+   &:hover .learn {
+      color: $accent;
+   }
+
+   .block2 {
+      flex: 0 0 20%;
+
+      // background: pink;
+      margin-right: 40px;
+      border-radius: 3px;
+
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+
+      @media only screen and (max-width: #{$mobile-width}) {
+         display: none;
+      }
+   }
+
+   .date {
+      color: $text_grey;
+   }
+
+   .post-title {
+      font-size: 24px;
+      margin: 10px 0;
+   }
+
+   .teaser {
+      margin: 10px 0;
+      color: $text_grey;
+      line-height: 24px;
+   }
+}

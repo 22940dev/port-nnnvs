@@ -1,0 +1,49 @@
+@import '../styles/global.scss';
+
+.mainstage {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   min-height: 400px;
+   height: 50vh;
+   flex-direction: column;
+
+   .lead {
+      font-size: 45px;
+      font-weight: 600;
+      margin-bottom: 20px;
+      animation-name: lead-animation;
+      animation-duration: 1s;
+      text-align: center;
+   }
+   @keyframes lead-animation {
+      0% {
+         opacity: 0;
+         transform: translateY(20px);
+      }
+
+      100% {
+         opacity: 1;
+         transform: translateY(0px);
+      }
+   }
+
+   .sublead {
+      opacity: 0;
+      font-size: 20px;
+      color: $text_grey;
+      animation-name: lead-animation;
+      animation-duration: 1s;
+      animation-fill-mode: forwards;
+   }
+}
+
+.writings {
+   padding: 350px 20px 60px 20px;
+   // margin: 0 -20px;
+
+   .shiftRight {
+      margin-left: 20px;
+   }
+
+}

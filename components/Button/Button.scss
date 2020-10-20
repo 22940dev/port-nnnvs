@@ -1,0 +1,35 @@
+@import '../../styles/global.scss';
+
+.button {
+   border-radius: 5px;
+   padding: 10px 20px;
+   font-size: 16px;
+   font-weight: 500;
+   transition: 0.3s all;
+   cursor: pointer;
+}
+
+.link {
+   color: black !important;
+}
+
+.button:hover {
+   transform: translateY(-1px);
+}
+
+.button:focus {
+   outline: none;
+}
+
+.dark {
+   background: black;
+   color: white;
+   border: 0px;
+}
+
+.light {
+   background: white;
+   border: 1px solid $shadow_color;
+   color: black;
+   box-shadow: $button_shadow;
+}

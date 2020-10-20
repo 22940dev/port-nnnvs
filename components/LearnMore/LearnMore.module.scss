@@ -1,0 +1,20 @@
+@import '../../styles/global.scss';
+
+.learn {
+   margin-top: 10px;
+   color: $black;
+   font-weight: 500;
+   transition: 0.2s all;
+   display: block;
+   cursor: pointer;
+
+   &:hover {
+      color: $accent;
+   }
+
+   .back-button {
+      &:hover {
+         color: $black;
+      }
+   }
+}

@@ -1,0 +1,64 @@
+@import '../../styles/global.scss';
+
+.big,
+.small,
+.smaller,
+.about-big {   
+   background: #202020;
+   width: 100%;
+}
+.small {
+   height: 20px;
+   grid-row-start: 1;
+   grid-row-end: 2;
+}
+
+.smaller {
+   height: 0px;
+}
+
+.big,
+.about-big {
+   color: white;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 160px;
+
+   font-size: 30px;
+   font-weight: 500;
+   text-align: center;
+   // animation: lead-animation .7s;
+}
+
+.about-big {
+   background-repeat: no-repeat;
+   background-size: contain;
+   background-position: center;
+   height: 400px;
+   padding: 10px 0;
+   overflow: hidden;
+
+   // animation: lead-animation .7s;
+
+   img {
+      height: 100%;
+      animation-name: fade;
+      animation-duration: 1.3s;
+      animation-fill-mode: forwards;
+      animation-timing-function: ease-out;
+   }
+
+   @keyframes fade {
+      0% {
+         opacity: 0.3;
+         // height: 400%;
+         filter: blur(15px);
+      }
+
+      100% {
+         // filter: blur(0);
+         padding: 0;
+      }
+   }
+}

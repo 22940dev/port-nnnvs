@@ -1,0 +1,18 @@
+@import '../../styles/global.scss';
+
+.footer {
+   background: $background_grey;
+   padding: $footer_padding;
+   text-align: center;
+   color: $text_grey;
+   font-size: 14px;
+
+   position: absolute;
+   bottom: 0;
+   width: 100%;
+   box-sizing: border-box;
+
+   a {
+      color: inherit;
+   }
+}

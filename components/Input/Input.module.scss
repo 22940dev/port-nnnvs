@@ -1,0 +1,13 @@
+@import '../../styles/global.scss';
+
+.input {
+   color: white;
+   border-radius: 3px;
+   padding: 10px 20px;
+   border: 1px solid $border_color;
+   width: 100%;
+   font-size: 20px;
+   color: $black;
+   box-shadow: $medium_shadow;
+   box-sizing: border-box;
+}
