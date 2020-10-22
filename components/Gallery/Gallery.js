@@ -83,6 +83,24 @@ thumbnail: require('../../data/design/IMG_3635_e.jpg')
 // 	        // thumbnailHeight: 212,
 },
 
+{src: require('../../data/design/13561827_1565115150459920_2124565783_n.jpg'),
+thumbnail: require('../../data/design/13561827_1565115150459920_2124565783_n.jpg')},
+
+{src: require('../../data/design/13712615_1632639103715986_667988900_n.jpg'),
+thumbnail: require('../../data/design/13712615_1632639103715986_667988900_n.jpg')},
+
+{src: require('../../data/design/13774770_1767181543495413_160755803_n.jpg'),
+thumbnail: require('../../data/design/13774770_1767181543495413_160755803_n.jpg')},
+
+{src: require('../../data/design/15803552_400320800309884_2478589527321477120_n.jpg'),
+thumbnail: require('../../data/design/15803552_400320800309884_2478589527321477120_n.jpg')},
+
+{src: require('../../data/design/17596165_1139442629498845_3460272395233787904_n.jpg'),
+thumbnail: require('../../data/design/17596165_1139442629498845_3460272395233787904_n.jpg')},
+
+{src: require('../../data/design/17662712_1831215703795337_1757145917649059840_n.jpg'),
+thumbnail: require('../../data/design/17662712_1831215703795337_1757145917649059840_n.jpg')},
+
 {src: require('../../data/design/Its always sunny.jpg'),
 thumbnail: require('../../data/design/Its always sunny.jpg')},
 
