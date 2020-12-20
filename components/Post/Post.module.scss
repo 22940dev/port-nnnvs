@@ -6,7 +6,7 @@
    line-height: 28px;
    color: $text_color;
    box-sizing: border-box;
-
+   
    .lead {
       font-weight: 600;
       font-size: 28px;
@@ -18,6 +18,8 @@
    .left-col {
       color: $text_grey;
       margin-top: 3px;
+      grid-row-start: 1;
+      grid-row-end: 2;
 
       .spacing-hack {
          height: 20px;

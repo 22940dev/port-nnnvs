@@ -26,7 +26,7 @@ const About = () => {
                   </div>
                   <div className={styles.info}>
                      <div>
-                        I'm a 23-year-old technologist working on the intersection of the physical and the digital world, i.e, maps.
+                        I'm a 24-year-old technologist working on the intersection of the physical and the digital world, i.e, maps.
                         As a Deep Learning and AI enthusiast, I try to work out and keep a hang of what’s going on in the flourishing world of AI. 
                         Currently fascinated by Deep learning applications for Natural Language Processing. 
                      </div>
@@ -62,7 +62,10 @@ const About = () => {
                      <div className={styles.title}>Patents</div>
                         <div>
                            <div className={styles.item}>
-                              On-Street Parking Localization using Unsupervised Machine Learning on GPS Probe data, May 2019, US 16/404916
+                              {' '}
+                              <a href="https://patents.google.com/patent/US20200355515A1/en?oq=US20200355515A1/">
+                                 On-Street Parking Localization using Unsupervised Machine Learning on GPS Probe data, May 2019, US20200355515A1
+                              </a>{' '}
                            </div>
                            <div className={styles.item}>
                               Inquisitive approach to find the last mile path using Audio and GPS Probe data using Machine Learning, Feb 2020, US 16/803302

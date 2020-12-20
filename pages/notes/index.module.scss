@@ -1,0 +1,58 @@
+@import '../../styles/global.scss';
+
+.writing-container {
+   display: flex;
+   // padding: 40px;
+   padding: 40px;
+   box-sizing: border-box;
+
+   @media only screen and (min-width: #{$mobile-width}) {
+      margin: 0 -20px;
+   }
+
+   @media only screen and (max-width: #{$mobile-width}) {
+      flex-direction: column;
+      padding: 10px 20px;
+   }
+
+   .sidebar {
+      flex: 0 0 150px;
+      // background: pink;
+      padding-left: 40px;
+
+      @media only screen and (max-width: #{$mobile-width}) {
+         padding-left: 20px;
+      }
+
+      float: right;
+
+      .sidebar-group {
+         margin-top: 40px;
+
+         @media only screen and (max-width: #{$mobile-width}) {
+            margin-top: 0;
+         }
+      }
+
+      .title {
+         color: $black;
+         font-weight: 600;
+         margin: 20px 0;
+      }
+
+      .item {
+         margin: 20px 0;
+         cursor: pointer;
+         transition: 0.2s all;
+         color: $text_grey;
+
+         &:hover {
+            color: black;
+         }
+      }
+
+      .selected {
+         color: $black;
+      }
+   }
+}

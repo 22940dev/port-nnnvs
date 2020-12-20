@@ -5,7 +5,7 @@ import cx from 'classnames';
 
 import { useRouter } from 'next/router';
 
-const pages = ['about', 'notes', 'design'];
+const pages = ['about', 'notes', 'gallery'];
 const Navigation = () => {
    const router = useRouter();
 

@@ -34,14 +34,14 @@ const BlogTile = (props) => {
                <div className={styles.teaser}>{desc}</div>
                <LearnMore
                   text={props.writing.link_text}
-                  link="{props.writing.url || '/writings/' + props.writing.slug}"
+                  link="{props.writing.url || '/notes/' + props.writing.slug}"
                />
             </div>
          </a>
       );
    } else {
       return (
-         <Link href={`writing/${props.writing.slug}`}>
+         <Link href={`notes/${props.writing.slug}`}>
             <div className={styles.post}>
                {props.image && (
                   <div
@@ -60,7 +60,7 @@ const BlogTile = (props) => {
                   <div className={styles.teaser}>{desc}</div>
                   <LearnMore
                      text={props.writing.link_text}
-                     link="{props.writing.url || '/writings/' + props.writing.slug}"
+                     link="{props.writing.url || '/notes/' + props.writing.slug}"
                   />
                </div>
             </div>

@@ -1,21 +1,21 @@
 import React from 'react';
 import { render } from 'react-dom';
 import Images from '../../components/Gallery/Gallery';
-import Gallery from 'react-grid-gallery';
+import GalleryImages from 'react-grid-gallery';
 import { NextSeo } from 'next-seo';
 
 
-const Design = () => {
+const Gallery = () => {
     return (
         <>
             <NextSeo
-                title="Design"
+                title="Gallery"
                 description=""
-                canonical="https:/nikhilvs.com/design"
+                canonical="https:/nikhilvs.com/gallery"
             />
-            <Gallery images={Images} enableImageSelection={false}/>
+            <GalleryImages images={Images} enableImageSelection={false}/>
         </>
     );
 };
 
-export default Design;
+export default Gallery;

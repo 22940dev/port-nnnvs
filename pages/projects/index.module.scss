@@ -1,0 +1,66 @@
+@import '../../styles/global.scss';
+
+.projects-container {
+   display: flex;
+   padding: 40px;
+   transition: 1s all;
+   // animation: lead-animation 0.7s;
+   @media only screen and (min-width: #{$mobile-width}) {
+      margin-right: -20px;
+   }
+   @media only screen and (max-width: #{$mobile-width}) {
+      flex-direction: column-reverse;
+      padding: 10px 0px;
+   }
+
+   .sidebar {
+      width: 200px;
+
+      @media only screen and (max-width: #{$mobile-width}) {
+         padding: 0 20px;
+      }
+
+      .title {
+         color: $black;
+         font-weight: 600;
+         margin: 20px 0;
+      }
+
+      .item {
+         margin: 20px 0;
+         cursor: pointer;
+         transition: 0.2s all;
+         color: $text_grey;
+
+         &:hover {
+            color: black;
+         }
+      }
+
+      .selected {
+         color: $black;
+      }
+   }
+
+   .projects-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 20px;
+      transition: 1s all;
+      width: 100%;
+
+      @media only screen and (max-width: 750px) {
+         grid-template-columns: 1fr;
+      }
+   }
+
+   @keyframes lead-animation {
+      0% {
+         opacity: 0;
+      }
+
+      100% {
+         opacity: 1;
+      }
+   }
+}
