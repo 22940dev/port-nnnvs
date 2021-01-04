@@ -22,27 +22,34 @@ const About = () => {
                
                <div className={styles['item2']}>
                   <div className={styles.lead   }>
-                     I work as a Software Developer at <span className={styles.highlight}>HERE Technologies</span>{' '} in Mumbai, India.
+                   👋, I'm Nikhil.<br />
+                   I'm currently looking for job opportunities in the software industry. You can contact me at any of the socials below.
                   </div>
                   <div className={styles.info}>
                      <div>
-                        I'm a 24-year-old technologist working on the intersection of the physical and the digital world, i.e, maps.
-                        As a Deep Learning and AI enthusiast, I try to work out and keep a hang of what’s going on in the flourishing world of AI. 
-                        Currently fascinated by Deep learning applications for Natural Language Processing. 
+                        Previously, I worked as Software Engineer II at {''}
+                              <a href="https://www.here.com/">
+                              HERE Technologies
+                              </a>{''}, where I have independently 
+                        initiated and driven several research & development projects. 
                      </div>
                      <div>
-                        Previously, I studied Electronics & Electrical Engineering at {' '}
+                        As a Deep Learning and AI enthusiast, I try to work out an keep a hang of what’s going on in the flourishing world of AI. 
+                        
+                     </div>
+                     <div>
+                        Previously, I studied Electronics & Electrical Engineering at {''}
                         <span className={styles.highlight}>
                            Birla Institute of Technology & Science Pilani.
                         </span>
                      </div>
                      <div>
-                        I enjoy reading, photography and running. Recently, I've started competitive gaming, hit me up for any matches of Valorant or Rocket League!
+                        I enjoy reading, photography and running. You can checkout some of my photography in the Gallery section. Recently, I've started competitive gaming,
+                         hit me up for any matches of Valorant or Rocket League!
                      </div>
                      <div>
-                        This website is a work in progress, I will be writing some blogs here soon (hopefully). Thanks for visiting!
+                        Thanks for visiting!
                      </div>
-            
                   </div>
 
                   <div className={styles['about-col']}>
@@ -51,10 +58,10 @@ const About = () => {
                         <div className={styles.item}>
                            Vision
                         </div>
-                        <div className={styles.item}>Natural Language Processing</div>
                         <div className={styles.item}>
                            Machine Learning DevOps
                         </div>
+                        <div className={styles.item}>Natural Language Processing</div>
                      </div>
                   </div>
 

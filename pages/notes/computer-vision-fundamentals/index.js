@@ -4,10 +4,10 @@ import Post from '../../../components/Post/Post';
 import banner from './lane_detection.jpeg';
 import { CodeBlock, dracula } from "react-code-blocks";
 export const config = {
-   title: 'This Week I Learned: Computer Vision Fundamentals',
+   title: 'Computer Vision Fundamentals: Road Lane Lines Detection',
    description:
       'Notes on the basics of Lane Lines Detection using Computer Vision techniques like Canny Edge Detection and Hough Transforms.',
-   date: '6/19/2020',
+   date: '9/19/2020',
    external: false,
    url: 'http://nikhilvs.com/notes/computer-vision-fundamentals/',
    categories: ['Code', 'Computer Vision','Image Processing'],

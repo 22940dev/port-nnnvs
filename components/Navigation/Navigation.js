@@ -16,7 +16,15 @@ const Navigation = () => {
                Nikhil Vinay Sharma
             </Link>
 
+
+            {''}<a key={0}
+                     className={cx(styles.right)}
+                     href="https://drive.google.com/file/d/15qmcvYYYfpP-xMpv4iyONf7alwe4xY_z/view?usp=sharing">
+                              Resume
+                  </a>{''}
+
             {pages.map((x, i) => (
+               
                <Link
                   key={i}
                   className={cx(styles.right, {

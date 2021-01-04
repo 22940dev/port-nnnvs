@@ -9,7 +9,7 @@ import HomeNewsLetterRow from '../components/HomeNewsLetterRow/HomeNewsLetterRow
 import BlogTile from '../components/BlogTile/BlogTile';
 import Button from '../components/Button/Button';
 import Banner from '../components/Banner/Banner';
-// import writing from '../data/writing';
+import writing from '../data/writing';
 // import projects from '../data/projects';
 import { NextSeo } from 'next-seo';
 
@@ -32,8 +32,35 @@ const Home = () => {
                   Hi, I'm Nikhil. Welcome to my personal website.
                </div>
                <Socials margin={true} />
+               
             </div>
-         </Container>
+            <h1>From the archives</h1>
+
+               {writing
+                  .filter((x) => x.featured)
+                  .map((x, i) => (
+                     <BlogTile
+                        key={i}
+                        image={true}
+                        blogPage={false}
+                        writing={x}
+                     />
+                  ))}
+               <Link href="/notes">
+                  <Button
+                     onClick={null}
+                     color="light"
+                     text="View all writing"
+                  />
+               </Link>
+            
+            {/* <HomeNewsLetterRow /> */}
+            {/* <div className={styles.writings}>
+               
+               
+            </div> */}
+            
+      </Container>
     </>
   );
 };
