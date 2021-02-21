@@ -104,9 +104,6 @@ thumbnail: require('../../data/design/17662712_1831215703795337_1757145917649059
 {src: require('../../data/design/Its always sunny.jpg'),
 thumbnail: require('../../data/design/Its always sunny.jpg')},
 
-{src: require('../../data/design/donut.gif'),
-thumbnail: require('../../data/design/donut.gif')},
-
 {src: require('../../data/design/Monk3.jpg'), 
 thumbnail: require('../../data/design/Monk3.jpg')}, 
 

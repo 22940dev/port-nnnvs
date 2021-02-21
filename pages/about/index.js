@@ -23,7 +23,10 @@ const About = () => {
                <div className={styles['item2']}>
                   <div className={styles.lead   }>
                    👋, I'm Nikhil.<br />
-                   I'm currently looking for job opportunities in the software industry. You can contact me at any of the socials below.
+                   I'm a Senior Software Engineer at {''}
+                              <a href="https://www.joveo.com/">
+                              Joveo
+                              </a>{''}.
                   </div>
                   <div className={styles.info}>
                      <div>
@@ -38,7 +41,7 @@ const About = () => {
                         
                      </div>
                      <div>
-                        Previously, I studied Electronics & Electrical Engineering at {''}
+                        I studied Electronics & Electrical Engineering at {''}
                         <span className={styles.highlight}>
                            Birla Institute of Technology & Science Pilani.
                         </span>
