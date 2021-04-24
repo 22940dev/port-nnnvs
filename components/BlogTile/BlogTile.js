@@ -24,7 +24,8 @@ const BlogTile = (props) => {
             {props.image && (
                <div
                   className={styles.block2}
-                  style={{ backgroundImage: `url('img/${props.writing.img}')` }}
+                  // style={{ backgroundImage: `url('img/${props.writing.img}')` }}
+                  style={{ backgroundImage: `url('${props.writing.img}')` }}
                ></div>
             )}
 
@@ -46,9 +47,7 @@ const BlogTile = (props) => {
                {props.image && (
                   <div
                      className={styles.block2}
-                     style={{
-                        backgroundImage: `url('${props.writing.img}')`,
-                     }}
+                     style={{ backgroundImage: `url('${props.writing.img}')` }}
                   ></div>
                )}
 

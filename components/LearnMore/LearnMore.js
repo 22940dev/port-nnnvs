@@ -12,7 +12,8 @@ const LearnMore = ({ text, location, margin = true, history }) => {
       website: <span>Visit the website &#8594;</span>,
       presentation: <span>View the presentation &#8594;</span>,
       continue: <span>Continue reading &#8594;</span>,
-      heredev: <span>Read full post on HERE Dev blog &#8594;</span>,
+      heredev: <span>Read the full post on HERE Dev blog &#8594;</span>,
+      medium: <span>Read the full post on Medium &#8594;</span>,
       blog: <span>Read the blog post &#8594;</span>,
    };
 

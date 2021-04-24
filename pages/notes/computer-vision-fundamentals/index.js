@@ -11,7 +11,7 @@ export const config = {
    external: false,
    url: 'http://nikhilvs.com/notes/computer-vision-fundamentals/',
    categories: ['Code', 'Computer Vision','Image Processing'],
-   link_text: 'continue',
+   link_text: 'blog',
    slug: 'computer-vision-fundamentals',
    featured: true,
    img: banner,
