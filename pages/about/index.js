@@ -17,12 +17,12 @@ const About = () => {
          <Container className={styles.about}>
             <div className="grid-1-2">
                <div className ={styles['small']}>
-                  <img src={require('../../components/HeaderBanner/nikhilvinaysharma.png')} />
+                  <img src={require('../../components/HeaderBanner/Nikhil__Notion_square.jpg')} />
                </div>
                
                <div className={styles['item2']}>
                   <div className={styles.lead   }>
-                   👋, I'm Nikhil.<br />
+                   👋 , I'm Nikhil.<br />
                    I'm a Senior Software Engineer at {''}
                               <a href="https://www.joveo.com/">
                               Joveo
