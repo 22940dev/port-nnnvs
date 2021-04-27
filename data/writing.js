@@ -1,6 +1,6 @@
 
 import { config as computerVisionFundamentals } from '../pages/notes/computer-vision-fundamentals';
-import vanGogh from './van-gogh.jpeg';
+import vanGogh from './van-gogh-smol.jpeg';
 
 const writing = [
 //   add new one on top of the list
