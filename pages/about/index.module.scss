@@ -5,15 +5,23 @@ $about_height: 400px;
 .about {
    padding: 40px;
    box-sizing: border-box;
-   // margin: 0 40px;
+
    a {
       font-weight: 500;
+      color: $text_color;
+      // text-decoration: underline;
    }
 
    .lead {
       font-weight: 700;
       font-size: 50px;
       margin-top: -6px;
+
+      a {
+         // font-weight: 500;
+         color: $black;
+         text-decoration: underline;
+      }
    }
 
    .lead {

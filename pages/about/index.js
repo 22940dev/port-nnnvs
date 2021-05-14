@@ -4,6 +4,7 @@ import Socials from '../../components/Socials/Socials';
 import HeaderBanner from '../../components/HeaderBanner/HeaderBanner';
 import Container from '../../components/Container/Container';
 import { NextSeo } from 'next-seo';
+import Link from 'next/link';
 
 const About = () => {
    return (
@@ -22,7 +23,7 @@ const About = () => {
                
                <div className={styles['item2']}>
                   <div className={styles.lead   }>
-                   👋 , I'm Nikhil.<br />
+                   👋 I'm Nikhil.<br />
                    I'm a Senior Software Engineer at {''}
                               <a href="https://www.joveo.com/">
                               Joveo
@@ -37,7 +38,10 @@ const About = () => {
                         initiated and driven several research & development projects. 
                      </div>
                      <div>
-                        As a Deep Learning and AI enthusiast, I try to work out an keep a hang of what’s going on in the flourishing world of AI. 
+                        As a Deep Learning enthusiast, I try to work out an keep a hang of what’s going on 
+                        in the flourishing world of AI. I <Link href={`notes`}>
+                              <a>write</a>
+                              </Link>  about my experiences with technology in this space.
                         
                      </div>
                      <div>
@@ -47,11 +51,13 @@ const About = () => {
                         </span>
                      </div>
                      <div>
-                        I enjoy reading, photography and running. You can checkout some of my photography in the Gallery section. Recently, I've started competitive gaming,
+                        I enjoy reading,  <Link href={`gallery`}>
+                              <a>photography</a>
+                              </Link> and running. Recently, I've started competitive gaming,
                          hit me up for any matches of Valorant or Rocket League!
                      </div>
                      <div>
-                        Thanks for visiting!
+                        Thanks for dropping by!
                      </div>
                   </div>
 
