@@ -24,7 +24,10 @@ const About = () => {
                <div className={styles['item2']}>
                   <div className={styles.lead   }>
                    👋 I'm Nikhil.<br />
-                   I'm a Senior Software Engineer at {''}
+                   I am an incoming masters student in Computer Science at {''}
+                              <a href="https://cims.nyu.edu/">
+                              NYU Courant
+                              </a>{''}. Currently, I'm working as a Senior Software Engineer at {''}
                               <a href="https://www.joveo.com/">
                               Joveo
                               </a>{''}.
@@ -45,10 +48,9 @@ const About = () => {
                         
                      </div>
                      <div>
-                        I studied Electronics & Electrical Engineering at {''}
-                        <span className={styles.highlight}>
-                           Birla Institute of Technology & Science Pilani.
-                        </span>
+                        Prior to this, I completed my bachelors in Electronics & Electrical Engineering at <a href="https://www.bits-pilani.ac.in/">
+                        Birla Institute of Technology & Science Pilani
+                              </a>{''}.
                      </div>
                      <div>
                         I enjoy reading,  <Link href={`gallery`}>

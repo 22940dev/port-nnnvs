@@ -22,14 +22,14 @@ const Home = () => {
     <>
       <NextSeo
             title="Nikhil Vinay Sharma"
-            description="Technologist"
+            description="Blog"
             canonical="https://nikhilvs.com"
          />
       <Container>
             <div className={styles.mainstage}>
                <div className={styles.lead}>{lead}</div>
                <div className={styles.sublead}>
-                  Hi, I'm Nikhil. Welcome to my personal website.
+                  Hi, I'm Nikhil. Welcome to my website.
                </div>
                <Socials margin={true} />
                
