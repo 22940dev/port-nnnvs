@@ -18,13 +18,13 @@ const Navigation = () => {
 
 
             {''}<a key={0}
-                     className={cx(styles.right)}
-                     href="https://drive.google.com/file/d/14AuVN_IKGsYMtqwyWnW7cYsy7PVL90qO/view?usp=sharing">
-                              Resume
-                  </a>{''}
+               className={cx(styles.right)}
+               href="https://drive.google.com/file/d/15ioid4mSn87Yl0ahspNQCFJB35cH1fMH/view?usp=sharing">
+               Resume
+            </a>{''}
 
             {pages.map((x, i) => (
-               
+
                <Link
                   key={i}
                   className={cx(styles.right, {

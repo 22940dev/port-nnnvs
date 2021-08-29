@@ -20,7 +20,7 @@ const Socials = ({ margin }) => {
          </a>
          <a
             aria-label="Email"
-            href="mailto:nikhilvs999@gmail.com"
+            href="mailto:nikhilvs@nyu.edu"
             className="icon"
          >
             <i className="fa fa-envelope" aria-hidden="true" />
